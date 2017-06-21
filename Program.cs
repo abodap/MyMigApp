@@ -6,7 +6,7 @@ namespace BasicApp
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var config = new ConfigurationBuilder()
                 .AddEnvironmentVariables(prefix: "ASPNETCORE_")
